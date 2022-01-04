@@ -7,7 +7,10 @@ h1 {
   font-size: 50px;
   font-weight: 600;
 }
-section {
+h2 {
+  font-size: 40px;
+}
+.flexible-container {
   display: flex;
   margin-bottom: 150px;
 }
@@ -55,4 +58,35 @@ section {
 }
 .paragraph-text {
   width: 80%;
+}
+.experience-area {
+  background-image: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experience-area h1 {
+  margin-bottom: 70px;
+}
+.experience-item {
+  box-shadow: 10px 10px 40px gray;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  border-radius: 5px;
+  padding: 50px;
+}
+#web-develpoment-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#full-stack-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(#ff674a, #ff9a75);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
+  color: gray;
 }
